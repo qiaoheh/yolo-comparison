@@ -1,0 +1,18 @@
+{
+  "model_type": "yolox",
+  "model_path": "models/yolox_tiny.onnx",
+  "input_size": 416,
+  "flops": {
+    "flops": 6412536000,
+    "params": 5047191,
+    "flops_g": 6.412536,
+    "params_m": 5.047191
+  },
+  "speed": {
+    "fps": 172.16645281219016,
+    "mean_latency_ms": 5.808332480955869,
+    "std_latency_ms": 0.2812442859733869,
+    "min_latency_ms": 5.4362500086426735,
+    "max_latency_ms": 6.462250137701631
+  }
+}

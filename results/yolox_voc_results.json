@@ -1,0 +1,109 @@
+{
+  "mAP@0.5": 0.5299936046481636,
+  "per_class": {
+    "aeroplane": {
+      "ap": 0.7167854252824633,
+      "num_gt": 1002,
+      "num_detections": 768
+    },
+    "bicycle": {
+      "ap": 0.4750053376130149,
+      "num_gt": 837,
+      "num_detections": 544
+    },
+    "bird": {
+      "ap": 0.6075440257283904,
+      "num_gt": 1271,
+      "num_detections": 804
+    },
+    "boat": {
+      "ap": 0.4127433755130316,
+      "num_gt": 1059,
+      "num_detections": 528
+    },
+    "bottle": {
+      "ap": 0.36160777718029136,
+      "num_gt": 1561,
+      "num_detections": 625
+    },
+    "bus": {
+      "ap": 0.71426444017531,
+      "num_gt": 685,
+      "num_detections": 521
+    },
+    "car": {
+      "ap": 0.4566547041250706,
+      "num_gt": 2492,
+      "num_detections": 1340
+    },
+    "cat": {
+      "ap": 0.6145380618807327,
+      "num_gt": 1277,
+      "num_detections": 868
+    },
+    "chair": {
+      "ap": 0.35524239022550175,
+      "num_gt": 3056,
+      "num_detections": 1419
+    },
+    "cow": {
+      "ap": 0.5901311859682973,
+      "num_gt": 771,
+      "num_detections": 469
+    },
+    "diningtable": {
+      "ap": 0.44012648627246503,
+      "num_gt": 800,
+      "num_detections": 404
+    },
+    "dog": {
+      "ap": 0.6586817528632996,
+      "num_gt": 1598,
+      "num_detections": 1120
+    },
+    "horse": {
+      "ap": 0.4819460208819151,
+      "num_gt": 803,
+      "num_detections": 578
+    },
+    "motorbike": {
+      "ap": 0.5988819636228729,
+      "num_gt": 801,
+      "num_detections": 591
+    },
+    "person": {
+      "ap": 0.6249824747275325,
+      "num_gt": 17401,
+      "num_detections": 12470
+    },
+    "pottedplant": {
+      "ap": 0.2883846435641569,
+      "num_gt": 1202,
+      "num_detections": 476
+    },
+    "sheep": {
+      "ap": 0.5203205538509583,
+      "num_gt": 1084,
+      "num_detections": 579
+    },
+    "sofa": {
+      "ap": 0.4658015083161201,
+      "num_gt": 841,
+      "num_detections": 433
+    },
+    "train": {
+      "ap": 0.7125778757735205,
+      "num_gt": 704,
+      "num_detections": 558
+    },
+    "tvmonitor": {
+      "ap": 0.5036520893983268,
+      "num_gt": 893,
+      "num_detections": 543
+    }
+  },
+  "evaluated_classes": 20,
+  "model": "yolox",
+  "model_path": "models/yolox_tiny.onnx",
+  "input_size": 416
+}
